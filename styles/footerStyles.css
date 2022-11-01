@@ -4,3 +4,25 @@ Aanmaakdatum: 9/30/2022
 
 De css code voor de footer.
 */
+
+footer
+{
+    position: fixed;
+    margin-top: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #292c2f;
+    color: white;
+    text-align: center;
+}
+
+.footerContent 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+

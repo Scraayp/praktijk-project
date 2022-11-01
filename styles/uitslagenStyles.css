@@ -1,0 +1,36 @@
+/*
+    Auteur:          Haaksman,Dion
+    Aanmaakdatum:    07-10-2022
+
+    <Css voor de pagina uitslagen>
+*/
+
+/* positionering tabellen*/
+#results
+{
+    border: 5px;
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+/* h1 en h3 centereren*/
+h1,h3
+{
+    text-align: center;
+}
+
+/* opmaak tabel*/
+th
+{
+    background-color: #608bd2;
+}
+
+/* opmaak tabel*/
+td
+{
+    border-bottom: 2px solid #608bd2;
+}
+

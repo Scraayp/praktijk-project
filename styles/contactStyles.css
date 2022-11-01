@@ -1,0 +1,32 @@
+/* 
+Auteur: Michal, Kolasa
+Aanmaakdatum: 9/30/2022
+
+De css code voor de Contact pagina.
+*/
+
+
+table
+{
+    border: 3px solid #808080
+}
+
+iframe 
+{
+    border: none; 
+    float: right;
+    margin-top: 15px;
+}
+
+#infoLeft
+{
+    margin-top: 15px;
+    float: left;
+}
+
+#logo 
+{
+    float: center;
+    margin-top: 60px;
+    margin-left: 188px;
+}

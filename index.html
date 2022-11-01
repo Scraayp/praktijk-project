@@ -1,19 +1,146 @@
-<!Doctype html>
 <!--
-Auteur: Michal, Kolasa
-=Aanmaakdatum: 9/30/2022
+    Auteur:         Haaksman,Dion
+    Aanmaakdatum:    07-10-2022
 
-Een website gemaakt voor B.V.V Den Bosch
+    <Een website voor voetbalclub B.V.V>
 -->
+
 <html lang="nl">
+
     <head>
         <title>
             B.V.V Den Bosch
         </title>
-        <meta charset = "UTF-8">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/bvvLogo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/indexStyles.css">
+        <link rel="stylesheet" href="styles/footerStyles.css">
+        <link rel="stylesheet" href="styles/headerStyles.css">
     </head>
+
     <body>
-        <p>hoi</p>
+        <!-- De header, waar je alle navigatie gaat krijgen! -->
+        <header class="header-fixed">
+            <div class="header-limiter">
+                <h1><a href="./index.html"><span>B.V.V</span> Den Bosch</a></h1>
+                <nav>
+                    <a href="./index.html" class="selected">Home</a>
+                    <a href="./pages/lidmaatschap.html">Lidmaatschap</a>
+                    <a href="./pages/sponsor.html">Sponsoring</a>
+                    <a href="./pages/trainingsSchema.html">Trainingsschema</a>
+                    <a href="./pages/uitslagen.html">Uitslagen</a>
+                    <a href="./pages/contact.html">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <!-- Deze element zorgt ervoor dat de header boven aan de pagina blijft -->
+        <div class="header-fixed-placeholder"></div>
+        <!-- EINDE HEADER -->
+
+        <!-- De content van de pagina -->
+        <div id="informationLeft">
+            <h1>Informatie</h1>
+            <p>
+                <a href="https://www.bvvdenbosch.nl/1/319/gestegen-energieprijzen-raken-ook-elke-sportclub/">De gestegen energieprijzen heeft impact op sportclubs</a>
+            </p>
+        </div>
+
+        <div id="informationRight">
+            <h1>
+                Laaste Uitslagen
+            </h1>
+            <div>
+                <table class="results">
+                    <tr>
+                        <th>
+                            Team
+                        </th>
+                        <th>
+                            Uitslag
+                        </th>
+                        <th>
+                            Team
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            DBN'22 5
+                        </td>
+                        <td>
+                            4-8
+                        </td>
+                        <td>
+                            B.V.V. 5
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            B.V.V. 4
+                        </td>
+                        <td>
+                            4-8
+                        </td>
+                        <td>
+                            SV BLC 3
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            B.V.V. 6
+                        </td>
+                        <td>
+                            2-1
+                        </td>
+                        <td>
+                            TEC 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Real Lunet 2
+                        </td>
+                        <td>
+                            5-2
+                        </td>
+                        <td>
+                            B.V.V. 2
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            B.V.V. 2
+                        </td>
+                        <td>
+                            3-3
+                        </td>
+                        <td>
+                            OJC Rosmalen 6
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Vlijmense Boys
+                        </td>
+                        <td>
+                            2-1
+                        </td>
+                        <td>
+                            B.V.V. 1
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- De footer. Het zwarte balkje onderaan de pagina. -->
+        <footer>
+            <div class="footerContent">
+                <p>&copy; 2022 Michal</p>
+            </div>
+        </footer>
+        <!-- EINDE FOOTER -->
     </body>
+
 </html>
