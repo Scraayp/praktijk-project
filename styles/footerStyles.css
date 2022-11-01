@@ -4,6 +4,7 @@ Aanmaakdatum: 9/30/2022
 
 De css code voor de footer.
 */
+<<<<<<< HEAD
 
 footer
 {
@@ -19,10 +20,29 @@ footer
 
 .footerContent 
 {
+=======
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #292c2f;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footerContent {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034

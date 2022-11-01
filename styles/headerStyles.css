@@ -4,12 +4,21 @@ Aanmaakdatum:   06-10-2022
 
 De css code voor de header.
 */
+<<<<<<< HEAD
 
 
 .header-fixed {
     background-color: #292c2f;
     padding: 20px 40px;
     height: 80px;
+=======
+.header-fixed {
+    background-color: #292c2f;
+    box-shadow: 0 1px 1px #ccc;
+    padding: 20px 40px;
+    height: 80px;
+    color: #ffffff;
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     box-sizing: border-box;
     top: -100px;
 
@@ -25,44 +34,69 @@ De css code voor de header.
 
 
 /* Een fixed holder maken zodat de pagina niet vershuift */
+<<<<<<< HEAD
 .header-fixed-placeholder 
 {
+=======
+.header-fixed-placeholder {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     height: 80px;
     display: none;
 }
 
 /* Logo */
 
+<<<<<<< HEAD
 .header-fixed .header-limiter h1 
 {
+=======
+.header-fixed .header-limiter h1 {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     float: left;
     font: normal 28px Cookie, Arial, Helvetica, sans-serif;
     line-height: 40px;
     margin: 0;
 }
 
+<<<<<<< HEAD
 .header-fixed .header-limiter h1 span 
 {
     color: #608bd2;
+=======
+.header-fixed .header-limiter h1 span {
+    color: #5383d3;
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
 }
 
 /* The navigation links */
 
+<<<<<<< HEAD
 .header-fixed .header-limiter a 
 {
+=======
+.header-fixed .header-limiter a {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     color: #ffffff;
     text-decoration: none;
 }
 
+<<<<<<< HEAD
 .header-fixed .header-limiter nav 
 {
+=======
+.header-fixed .header-limiter nav {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     font: 16px Arial, Helvetica, sans-serif;
     line-height: 40px;
     float: right;
 }
 
+<<<<<<< HEAD
 .header-fixed .header-limiter nav a 
 {
+=======
+.header-fixed .header-limiter nav a {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     display: inline-block;
     padding: 0 5px;
     text-decoration: none;
@@ -70,6 +104,7 @@ De css code voor de header.
     opacity: 0.9;
 }
 
+<<<<<<< HEAD
 .header-fixed .header-limiter nav a:hover 
 {
     opacity: 1;
@@ -77,6 +112,13 @@ De css code voor de header.
 
 .header-fixed .header-limiter nav a.selected 
 {
+=======
+.header-fixed .header-limiter nav a:hover {
+    opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     color: #608bd2;
     pointer-events: none;
     opacity: 1;
@@ -84,8 +126,12 @@ De css code voor de header.
 
 /* Fixed version of the header */
 
+<<<<<<< HEAD
 body.fixed .header-fixed 
 {
+=======
+body.fixed .header-fixed {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     padding: 10px 40px;
     height: 50px;
     position: fixed;
@@ -95,6 +141,7 @@ body.fixed .header-fixed
     z-index: 1;
 }
 
+<<<<<<< HEAD
 body.fixed .header-fixed-placeholder 
 {
     display: block;
@@ -102,12 +149,23 @@ body.fixed .header-fixed-placeholder
 
 body.fixed .header-fixed .header-limiter h1 
 {
+=======
+body.fixed .header-fixed-placeholder {
+    display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     font-size: 24px;
     line-height: 30px;
 }
 
+<<<<<<< HEAD
 body.fixed .header-fixed .header-limiter nav 
 {
+=======
+body.fixed .header-fixed .header-limiter nav {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
     line-height: 28px;
     font-size: 13px;
 }
@@ -115,16 +173,24 @@ body.fixed .header-fixed .header-limiter nav
 
 /* Making the header responsive */
 
+<<<<<<< HEAD
 @media all and (max-width: 600px) 
 {
+=======
+@media all and (max-width: 600px) {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
 
     .header-fixed {
         padding: 20px 0;
         height: 75px;
     }
 
+<<<<<<< HEAD
     .header-fixed .header-limiter h1 
     {
+=======
+    .header-fixed .header-limiter h1 {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
         float: none;
         margin: -8px 0 10px;
         text-align: center;
@@ -132,12 +198,17 @@ body.fixed .header-fixed .header-limiter nav
         line-height: 1;
     }
 
+<<<<<<< HEAD
     .header-fixed .header-limiter nav 
     {
+=======
+    .header-fixed .header-limiter nav {
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
         line-height: 1;
         float: none;
     }
 
+<<<<<<< HEAD
     .header-fixed .header-limiter nav a 
     {
         font-size: 13px;
@@ -147,4 +218,26 @@ body.fixed .header-fixed .header-limiter nav
     {
         display: none;
     }
+=======
+    .header-fixed .header-limiter nav a {
+        font-size: 13px;
+    }
+
+    body.fixed .header-fixed {
+        display: none;
+    }
+
+}
+
+/*
+	 We are clearing the body's margin and padding, so that the header fits properly.
+	 We are also adding a height to demonstrate the scrolling behavior. You can remove
+	 these styles.
+ */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
 }

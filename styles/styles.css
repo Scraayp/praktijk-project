@@ -4,6 +4,7 @@ Aanmaakdatum: 9/30/2022
 
 De css code voor de algemene elementen in de website.
 */
+<<<<<<< HEAD
 
 body
 {
@@ -12,3 +13,10 @@ body
     padding: 0;
     height: 100px;
 }
+=======
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+>>>>>>> 5f107694da9d5e11b998a64d7cd3e68310e35034
